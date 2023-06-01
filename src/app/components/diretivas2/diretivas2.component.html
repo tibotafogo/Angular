@@ -1,0 +1,12 @@
+<h1 [ngStyle] = "{'font-size': '18px', color :'Yellow'}">Dobro Jutro</h1>
+<h1 [ngClass] = "{online: status}">Gabigol é pior que Ribamar</h1>
+<ul>
+    <li *ngFor = "let list of lista">{{list}}"</li>
+</ul>
+<ol>
+    <li *ngFor = "let list of lista2">{{list}}"</li>
+
+</ol>
+<h1 *ngIf = on>Bem vindo</h1>
+<h1 *ngIf = off>Valeu</h1>
+<button (click)="clica()"> Click me</button>

@@ -1,0 +1,14 @@
+<h1 [ngStyle] = "{'font-family': 'cursive','font-size': '28px', color: 'red'}">Tequila não, bora tomar um corote !</h1>
+<h1 [ngStyle] = "{'font-size': '24px', color: 'blue'}">Diretiva de atributo</h1>
+<h1 [ngClass]= "{online: status}">Dobro Jutro !</h1>
+<h1 [ngClass]= "{online: status}">Rafael está online</h1>
+<ul>
+    <li *ngFor = "let list of lista">{{list}}</li>
+    
+</ul>
+<ol>
+    <li *ngFor = "let list of lista2"> {{list}}</li>
+</ol>
+<h1 *ngIf = on>Bem Vindo Kim Jon Il</h1>
+<h1 *ngIf = off>Valeu ! Kim Jon Il</h1>
+<button (click)="clica()">Click Me</button>
